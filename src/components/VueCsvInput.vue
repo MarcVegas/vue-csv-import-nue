@@ -73,7 +73,7 @@
 
                 if (validate(tmpFile)) {
                     VueCsvImportData.file = tmpFile;
-                    buildMappedCsv();
+                    console.log("Change triggered")
                 }
             }
 
@@ -94,6 +94,7 @@
                 reader.onerror = function (err) {
                     console.log(err);
                 };
+                buildMappedCsv();
             }, {deep: true});
 
             watch(() => VueCsvImportData.fileHasHeaders, () => {
