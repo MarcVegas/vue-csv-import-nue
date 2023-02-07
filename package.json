@@ -1,8 +1,8 @@
 {
-    "name": "vue-csv-import",
+    "name": "vue-csv-import-nue",
     "version": "4.1.2",
     "private": false,
-    "description": "Vue.js component to handle CSV uploads with field mapping.",
+    "description": "Vue.js component to handle CSV uploads with field mapping with default input file styling.",
     "author": "John Gile <me@jgile.com>",
     "main": "dist/vue-csv-import.esm.js",
     "unpkg": "dist/vue-csv-import.umd.js",

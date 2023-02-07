@@ -73,6 +73,7 @@
 
                 if (validate(tmpFile)) {
                     VueCsvImportData.file = tmpFile;
+                    buildMappedCsv();
                 }
             }
 
